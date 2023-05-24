@@ -33,5 +33,6 @@ Contributions to Cipherit are welcome! If you find any issues or have suggestion
 
 ## License
 
-Cipherit is licensed under the [MIT License](LICENSE).
+This project is licensed under the GNU General Public License (GPL). See the [LICENSE](LICENSE) file for more information.
+
 
