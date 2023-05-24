@@ -1,21 +1,37 @@
-# Password-Generator
+# Cipherit
 
-Here's what this code does:
+Cipherit is a password generator application built using Python and PyQt5. It generates random passwords based on user preferences and character types.
 
-1.Defines a class PasswordGenerator with a main method that prompts the user to specify the password's length and complexity options, generates a random password based on those options, and prints the password.
+## Features
 
-2.Defines a method generatePassword that takes five boolean inputs indicating whether to include uppercase letters, lowercase letters, digits, and special characters in the password, and generates a random password of specified length using the selected character types.
+- Generate random passwords with customizable length and number of passwords.
+- Choose from different character types including special characters, alphanumeric characters, lowercase letters, and uppercase letters.
+- Option to include or exclude specific character types.
+- Simple and user-friendly interface.
 
-3.Defines four strings uppercaseChars, lowercaseChars, digitChars, and specialChars that contain all possible characters for each character type.
+## Installation
 
-4.Creates a StringBuilder validChars to build a string containing all valid characters based on the selected character types.
+1. Ensure you have Python 3.x installed on your system.
+2. Clone or download the Cipherit repository from GitHub.
+3. Install the required dependencies by running the following command:
+   pip install -r requirements.txt
+4. Run the application by executing the following command:
+   python Cipherit.py
+   
 
-5.Adds each selected character type to validChars.
+## Usage
 
-6.Throws an IllegalArgumentException if no character type is selected.
+1. Select the desired character types to include in the generated passwords using the checkboxes.
+2. Specify the password length and the number of passwords to generate.
+3. Click the "Generate" button to generate the passwords.
+4. The generated passwords will be displayed in the text area.
+5. If no character type is selected, an error message will be displayed.
 
-7.Creates a SecureRandom object to generate random numbers.
+## Contributing
 
-8.Iterates length times and adds a random character from validChars to a StringBuilder.
+Contributions to Cipherit are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request on the GitHub repository.
 
-9.Returns the generated password as a string.
+## License
+
+Cipherit is licensed under the [MIT License](LICENSE).
+
